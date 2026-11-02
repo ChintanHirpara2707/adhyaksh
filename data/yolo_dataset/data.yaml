@@ -1,0 +1,16 @@
+# ADHYAKSH AI YOLO Fine-Tuning Dataset Configuration
+path: E:\Sem_9\AML_PROJECT\AI\data\yolo_dataset
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: cell phone
+  1: pen
+  2: laptop
+  3: bottle
+  4: cup
+  5: book
+  6: remote
+  7: mouse
+  8: person

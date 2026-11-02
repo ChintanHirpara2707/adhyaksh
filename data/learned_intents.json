@@ -1,0 +1,286 @@
+[
+  {
+    "pattern_id": "lp_001",
+    "trigger": "start my coding workspace",
+    "action": "open_app_and_drive",
+    "parameters": {
+      "app": "code",
+      "drive": "D:\\"
+    },
+    "custom_response": "Coding workspace activated! Opened Visual Studio Code and navigated to D: drive.",
+    "category": "Workspace Automation",
+    "timestamp": "2026-10-21 12:00",
+    "usage_count": 3
+  },
+  {
+    "pattern_id": "lp_002",
+    "trigger": "who is the project lead",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "The project lead is Neelkanth, presiding over the Machine Learning system architecture.",
+    "category": "Knowledge",
+    "timestamp": "2026-10-21 12:05",
+    "usage_count": 7
+  },
+  {
+    "pattern_id": "lp_003",
+    "trigger": "prepare daily progress report",
+    "action": "create_file",
+    "parameters": {
+      "filename": "daily_progress_report.txt",
+      "drive": "D:\\",
+      "content": "# Daily Progress Report\nDate: {date}\nStatus: On Track\n"
+    },
+    "custom_response": "Created daily progress report on D: drive and opened it in Visual Studio Code.",
+    "category": "File Automation",
+    "timestamp": "2026-10-21 12:10",
+    "usage_count": 2
+  },
+  {
+    "pattern_id": "lp_004",
+    "trigger": "enter focus mode",
+    "action": "mute_and_launch",
+    "parameters": {
+      "app": "spotify",
+      "mute_toggle": false
+    },
+    "custom_response": "Focus mode initiated. Spotify launched for focus beats and notifications silenced.",
+    "category": "Productivity",
+    "timestamp": "2026-10-21 12:15",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_005",
+    "trigger": "start executive morning review",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "Executive morning review initiated. Telemetry normal.",
+    "category": "User Feedback",
+    "timestamp": "2026-10-21 19:59",
+    "usage_count": 6
+  },
+  {
+    "pattern_id": "lp_006",
+    "trigger": "focus",
+    "action": "command",
+    "parameters": {
+      "command": "open spotify"
+    },
+    "custom_response": "open spotify and mute audio",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:32",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_007",
+    "trigger": "what is my role",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "You are the Lead Machine Learning Architect.",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:32",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_008",
+    "trigger": "deploy project",
+    "action": "command",
+    "parameters": {
+      "command": "create file deploy.log in D drive with content Build Succeeded"
+    },
+    "custom_response": "create file deploy.log in D drive with content Build Succeeded",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:33",
+    "usage_count": 5
+  },
+  {
+    "pattern_id": "lp_009",
+    "trigger": "what is our company mission",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "To build autonomous intelligence for human empowerment.",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:33",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_010",
+    "trigger": "open w3schools",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.w3schools.com/"
+    },
+    "custom_response": "https://www.w3schools.com/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:38",
+    "usage_count": 3
+  },
+  {
+    "pattern_id": "lp_011",
+    "trigger": "open youtube",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.youtube.com/"
+    },
+    "custom_response": "https://www.youtube.com/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:39",
+    "usage_count": 3
+  },
+  {
+    "pattern_id": "lp_012",
+    "trigger": "open likedin",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.linkedin.com/feed/"
+    },
+    "custom_response": "https://www.linkedin.com/feed/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:57",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_013",
+    "trigger": "open facebook",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.facebook.com/"
+    },
+    "custom_response": "https://www.facebook.com/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:58",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "lp_014",
+    "trigger": "**adhyaksh ai action executed:** executed system launch for **'facebook'**",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.facebook.com/"
+    },
+    "custom_response": "https://www.facebook.com/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-22 08:58",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "lp_015",
+    "trigger": "what is my name",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "My lead engineer is neelkanth & chintan",
+    "category": "User Feedback",
+    "timestamp": "2026-10-30 15:09",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "qa_016",
+    "trigger": "What is my favorite sport?",
+    "action": "custom_response",
+    "custom_response": "Cricket",
+    "category": "User Q&A",
+    "timestamp": "2026-10-30 15:24"
+  },
+  {
+    "pattern_id": "lp_017",
+    "trigger": "what is current score",
+    "action": "open_website",
+    "parameters": {
+      "url": "https://www.cricbuzz.com/"
+    },
+    "custom_response": "https://www.cricbuzz.com/",
+    "category": "User Feedback",
+    "timestamp": "2026-10-30 15:31",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_018",
+    "trigger": "who i am",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "You are Neelkanth, the active operator on this workstation.",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 16:13",
+    "usage_count": 3
+  },
+  {
+    "pattern_id": "lp_019",
+    "trigger": "su kare che",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "I am doing my work..",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 16:16",
+    "usage_count": 3
+  },
+  {
+    "pattern_id": "lp_020",
+    "trigger": "what are you doing",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "\"I am doing my work..\"",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 16:17",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "lp_021",
+    "trigger": "who is chintan",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "Chintan is my collaborator on this project",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 16:48",
+    "usage_count": 4
+  },
+  {
+    "pattern_id": "lp_022",
+    "trigger": "who is mahipal",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "Mahipal is my collaborator on this project",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 16:50",
+    "usage_count": 2
+  },
+  {
+    "pattern_id": "lp_023",
+    "trigger": "📷 *[camera snapshot analyzed with yolov8 vision",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "that is not the toothbrush it was a pen",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 17:32",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "lp_024",
+    "trigger": "🎯 **yolov8 neural vision telemetry** *(latency: 126ms)*\n\n- **objects detected (1):** **1x remote**\n\n💡 **semantic understanding:** scene contains 1 recognized physical object(s) localized in your active camera perspective.\n\n**detailed breakdown:**\n- 📦 **remote**: detected in the optical viewing area with high certainty",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "This is mobile phone",
+    "category": "User Feedback",
+    "timestamp": "2026-11-01 17:28",
+    "usage_count": 0
+  },
+  {
+    "pattern_id": "lp_025",
+    "trigger": "what is my friend",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "My friend name is dhruv",
+    "category": "User Feedback",
+    "timestamp": "2026-11-02 14:58",
+    "usage_count": 1
+  },
+  {
+    "pattern_id": "lp_026",
+    "trigger": "who is my mentor",
+    "action": "custom_response",
+    "parameters": {},
+    "custom_response": "My mentor is sangeeta mam",
+    "category": "User Feedback",
+    "timestamp": "2026-11-02 15:41",
+    "usage_count": 1
+  }
+]

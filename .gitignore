@@ -1,0 +1,123 @@
+# =============================================================================
+# ADHYAKSH AI - GitHub .gitignore
+# Security, Credentials, Caches, Runtime Data, and System Artifacts
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 1. SECURITY & SECRETS (Never commit API keys or private credentials)
+# -----------------------------------------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+*.key
+*.pem
+*.cert
+*.crt
+secrets.toml
+.streamlit/secrets.toml
+credentials.json
+client_secret*.json
+token.json
+api_key.txt
+*api_key*
+*secret*
+
+# -----------------------------------------------------------------------------
+# 2. PYTHON CACHE & BYTECODE
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -----------------------------------------------------------------------------
+# 3. VIRTUAL ENVIRONMENTS
+# -----------------------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+Lib/
+Scripts/
+
+# -----------------------------------------------------------------------------
+# 4. JUPYTER & IDE ARTIFACTS
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# -----------------------------------------------------------------------------
+# 5. RUNTIME USER DATA, MEMORY BANKS & LOGS (Protect privacy & personal facts)
+# -----------------------------------------------------------------------------
+# System Execution Logs
+*.log
+logs/
+execution_logs.json
+data/execution_logs.json
+
+# User Session Data & Personal Profiles
+data/user_profile.json
+data/chat_history.json
+
+# Live Personal Memories (Protects personal facts like license plates, private notes)
+adhyaksh_memory.json
+memory_bank.json
+data/memory_bank.json
+
+# Audio Recording Dumps & Scratch Speeches
+*.wav
+*.mp3
+*.ogg
+*.m4a
+Antigravity artificial intelligence
+
+# -----------------------------------------------------------------------------
+# 6. YOLO / MACHINE LEARNING RUNS & ARTIFACTS
+# -----------------------------------------------------------------------------
+runs/
+*/runs/*
+wandb/
+*.tmp
+*.temp
+
+# -----------------------------------------------------------------------------
+# 7. OPERATING SYSTEM ARTIFACTS
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
